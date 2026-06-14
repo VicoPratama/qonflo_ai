@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Task, AuditLog, TaskStatus } from "./types";
+import type { Task, AuditLog, TaskStatus } from "./types";
 
 const API_URL = "http://localhost:3001/api";
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Task, TaskStatus, AuditLog } from "./types";
+import type { Task, TaskStatus, AuditLog } from "./types";
 import { getTasks, createTask, updateTaskStatus, deleteTask, getTaskAuditLogs } from "./api";
 import moment from "moment";
 
